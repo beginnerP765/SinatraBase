@@ -1,0 +1,18 @@
+current directory: F:/framework/sinatraapp/vendor/bundle/ruby/3.3.0/gems/nio4r-2.7.4/ext/nio4r
+C:/Ruby33-x64/bin/ruby.exe extconf.rb
+
+current directory: F:/framework/sinatraapp/vendor/bundle/ruby/3.3.0/gems/nio4r-2.7.4/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20241214-15504-dsuv5o sitelibdir\=./.gem.20241214-15504-dsuv5o clean
+make: *** ターゲット 'clean' を make するルールがありません.  中止.
+
+current directory: F:/framework/sinatraapp/vendor/bundle/ruby/3.3.0/gems/nio4r-2.7.4/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20241214-15504-dsuv5o sitelibdir\=./.gem.20241214-15504-dsuv5o
+make: 'all' に対して行うべき事はありません.
+
+current directory: F:/framework/sinatraapp/vendor/bundle/ruby/3.3.0/gems/nio4r-2.7.4/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20241214-15504-dsuv5o sitelibdir\=./.gem.20241214-15504-dsuv5o install
+make: 'install' に対して行うべき事はありません.
+
+current directory: F:/framework/sinatraapp/vendor/bundle/ruby/3.3.0/gems/nio4r-2.7.4/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20241214-15504-dsuv5o sitelibdir\=./.gem.20241214-15504-dsuv5o clean
+make: *** ターゲット 'clean' を make するルールがありません.  中止.
