@@ -1,4 +1,5 @@
 require 'sinatra/base'
+require_relative './../helpers/helpers'
 
 class Base < Sinatra::Base
   set :root, File.expand_path("..", __dir__)
@@ -6,15 +7,21 @@ class Base < Sinatra::Base
 
   # 静的ファイルのパスを設定
   set :public_folder, Proc.new { File.expand_path("../public", __dir__) }
+  
+  helpers MyHelpers
+
+  def mylayout
+    {:layout => :'share/layout'}
+  end
 
   configure do
     # production モードに設定
-    # set :environment, :production
+    set :environment, :production
   end
 
   before do
     # 現在の環境を表示
-    # puts "Environment: #{settings.environment}"
+    puts "Environment: #{settings.environment}"
   end
 
   error 500 do
